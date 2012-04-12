@@ -14,7 +14,7 @@ def init_parser():
     parser.add_argument("--list",action="store_true",help="print the available module names")
     parser.add_argument("--find",help="find the modules which contain the specified file")
     parser.add_argument("--import","--impor","--impo","--imp","--im","--i",dest="modules_import",help="Modules to be included",nargs="*")
-    parser.add_argument("--date",action="store_true",help="pritns todays date",default=print_date)
+    parser.add_argument("--date",action="store_true",help="prints todays date",default=print_date)
 
 def parse_arguments():
     global data 
